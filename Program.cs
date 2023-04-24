@@ -21,7 +21,7 @@ namespace Chat_Bot
         static async Task Main(string[] args)
         {
             botClient = new TelegramBotClient(token);
-
+            //new comment
             var me = await botClient.GetMeAsync();
             Console.WriteLine($"Bot id: {me.Id}. Bot name: {me.FirstName}.");
 
